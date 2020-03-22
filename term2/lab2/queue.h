@@ -86,11 +86,6 @@ void CQueue::Pop() {
   cout << "Poped value > " << val << endl;
 }
 
-void CQueue::Clear() {
-  front_ = rear_ = -1;
-  size_ == 0;
-}
-
 void CQueue::Resize() {
   string* arrTemp = new string[2 * capacity_];
   int j = -1;
